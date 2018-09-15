@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #C13737;
+    overflow-x: hidden;
+}
+.container{
+	margin: 2% auto 3%; 
+}
+.header h1, h2{
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Verdana';
+	font-size: 5vw;
+}
+.header h2{
+	font-size: 3vw;
+}
+
+.mandarin-word{
+	margin: 10% auto;
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'Verdana';
+
+}
