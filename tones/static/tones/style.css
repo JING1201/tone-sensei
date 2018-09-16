@@ -91,7 +91,21 @@ body{
 	margin-top: 0;
 	color: #E1E1E1;
 }
+
+.input-group mb-3{
+	margin: 10% auto;
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'roboto';
+	color: #E1E1E1;
+	transform:translate(-3%, 0);
+}
+.input-file{
+	transform: translate(-36%, 0);
+	margin: 0;
+}
 #submitButton{
+	margin-top: 20px;
 	align-items: center;
 	justify-content: center;
 }
