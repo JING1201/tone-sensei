@@ -75,6 +75,15 @@ body{
 	margin-top: 0;
 	color: #E1E1E1;
 }
+.fileSubmit{
+    position: relative;
+    align-items: center;
+    transform: translate(36%, 0);
+}
+.gradeMe{
+	position: relative;
+    align-items: center;
+}
 #score-container{
 	font-family: 'roboto-regular';
 	position: relative;

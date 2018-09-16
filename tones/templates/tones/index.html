@@ -27,10 +27,17 @@
 			<div class="mandarin-word">
 				<h3>mā</h3>
 			</div>
-				<!-- <input type="text" name="value" id="fillIn">
-				<input type="button" value="ok" id="button"> -->
-				<div style="text-align: center;">
-   					<input type="button" value="Submit" id="submitButton">
+			<div class="fileSubmit">
+				<form action="../../../static/audio/upload.php" method="post" enctype="multipart/form-data style="text-align: center;">
+					{% csrf_token%}
+					{{form.as_p}}
+		 			<input type="file" name="audioFiles" accept="audio/*" style="text-align: center;">
+		  			<input type="submit">
+				</form>
+			</div>
+				
+				<div class = "gradeMe" style="text-align: center">
+   					<input type="button" value="Grade Me" id="submitButton">
 				</div>
 		</div>
 		<script src="../../../static/tones/js/scoreKeeper.js"type="text/javascript"></script>
