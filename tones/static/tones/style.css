@@ -3,6 +3,11 @@
 	src: url('../fonts/roboto/Roboto-Thin.ttf'),
 		local('roboto');
 }
+@font-face{
+	font-family: 'roboto-regular';
+	src: url('../fonts/roboto/Roboto-Regular.ttf'),
+		local('roboto-regular');
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -67,4 +72,15 @@ body{
 	font-size: 1.8vw;
 	margin-top: 0;
 	color: #E1E1E1;
+}
+#score-container{
+	font-family: 'roboto-regular';
+	position: relative;
+	font-size: 1.8vw;
+	margin-top: 0;
+	color: #E1E1E1;
+}
+#submitButton{
+	align-items: center;
+	justify-content: center;
 }
