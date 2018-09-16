@@ -39,17 +39,19 @@ body{
 	font-family: 'roboto';
 	text-align: left;
     font-size: 2.5vw;
-    color: #E1E1E1;
+    color: #FFCE17;
     margin: 0 auto;
-
 }
 
 .mandarin-word{
 	margin: 10% auto;
+}
+.mandarin-word h3{
 	text-align: center;
 	font-size: 5vw;
 	font-family: 'roboto';
 	color: #E1E1E1;
+	transform:translate(-3%, 0);
 }
 .score-board {
 	position: relative;
