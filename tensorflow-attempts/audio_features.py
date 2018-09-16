@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import re
 from matplotlib.pyplot import specgram
+#python2
 
 def load_sound_files(file_paths):
     raw_sounds = []

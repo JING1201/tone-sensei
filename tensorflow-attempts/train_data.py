@@ -1,6 +1,7 @@
 import audio_features
 import numpy as np
 import tensorflow as tf
+#python2
 
 #load data
 parent_dir = 'data'
@@ -60,10 +61,3 @@ with tf.Session() as sess:
     print("Test accuracy: ",round(session.run(accuracy, 
     	feed_dict={X: ts_features,Y: ts_labels}),3))
 
-fig = plt.figure(figsize=(10,8))
-plt.plot(cost_history)
-plt.axis([0,training_epochs,0,np.max(cost_history)])
-plt.show()
-
-p,r,f,s = precision_recall_fscore_support(y_true, y_pred, average="micro")
-print "F-Score:", round(f,3)
