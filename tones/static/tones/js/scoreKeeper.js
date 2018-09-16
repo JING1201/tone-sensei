@@ -1,6 +1,7 @@
 var userScore = 0;
+var isRight = true;
 function scoreKeeper() {
-    var isRight = true;
+    
     if(isRight){
         alert('Correct!');
         userScore+=25;
@@ -8,6 +9,10 @@ function scoreKeeper() {
     }
     else{
         alert('Sorry, incorrect!');
+    }
+    var x = Math.floor(Math.random() * 10);
+    if( x % 2 == 0){
+    	isRight = false;
     }
 }
 
