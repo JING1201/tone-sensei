@@ -1,3 +1,8 @@
+@font-face{
+	font-family: 'roboto';
+	src: url('../fonts/roboto/Roboto-Thin.ttf'),
+		local('roboto');
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -9,20 +14,58 @@ body{
 .container{
 	margin: 2% auto 3%; 
 }
-.header h1, h2{
-	margin: 0 auto;
-	text-align: center;
-	font-family: 'Verdana';
-	font-size: 5vw;
+.header{
+	position: relative;
+	top: 30%;
+    width: 100%;
+    margin: 2%;
+    height: 10vh;
+    z-index: 1;
+}
+.header h1{
+	font-family: 'roboto';
+	text-align: left;
+    font-size:3.5vw;
+    color: #E1E1E1;
+    margin-bottom: 0%
+
 }
 .header h2{
-	font-size: 3vw;
+	font-family: 'roboto';
+	text-align: left;
+    font-size: 2.5vw;
+    color: #E1E1E1;
+    margin-top: 0%;
+
 }
 
 .mandarin-word{
 	margin: 10% auto;
 	text-align: center;
 	font-size: 5vw;
-	font-family: 'Verdana';
-
+	font-family: 'roboto';
+	color: #E1E1E1;
+}
+.score-board {
+	position: relative;
+    display: inline-block;
+	/*margin: 5% 45% ;*/
+	/*padding: 3% 4%;*/
+	/*border: 2px solid #E1E1E1;*/
+	color: #E1E1E1;
+    border-radius: 50%;
+    font-family: 'Roboto-Regular';
+    float: left;
+}
+.score-board h3{
+	font-size: 1vw;
+	margin-top: 30%;
+	margin-bottom: 0;
+	color: #E1E1E1;
+	float: left;
+}
+.score-board h4{
+	font-size: 1.8vw;
+	margin-top: 0;
+	color: #E1E1E1;
 }
